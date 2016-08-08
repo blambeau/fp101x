@@ -1,0 +1,1 @@
+map f = foldl (\ xs x -> xs ++ [f x]) []
